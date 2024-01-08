@@ -1,0 +1,209 @@
+
+@media (max-width: 1280px) {
+
+    .header1{
+        display: grid;
+        grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px;
+        
+        background-color: rgb(5, 65, 65);
+       
+    }
+
+     
+.backimg{
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px;
+    grid-template-rows: 80px 170px 80px ; 
+}
+
+
+#lgo2{
+    width: 1280px;
+    height: 330px;
+    
+}
+
+
+.projects1{
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px;
+    grid-template-rows: 100px 100px 100px;
+    
+}
+
+   
+
+.testimonial1{
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px;
+    grid-template-rows: 50px 200px 30px; 
+    background-color: rgb(238, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.contact1{
+
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px;
+    grid-template-rows: 50px 200px 50px; 
+    
+}
+
+
+
+.footer{
+    width: 1024px;
+    background-color: rgb(5, 65, 65);
+    color: white;
+    
+}
+
+#fery1{
+    padding-right: -80px;
+}
+#follo1{
+    padding-left: -70px;
+}
+
+}
+
+
+
+
+
+/* Next two*/
+
+@media (max-width: 1024px) {
+    
+    
+    .header1{
+        display: grid;
+        grid-template-columns: 96px 96px 96px 121px 96px 10px 157px 96px ;
+        
+        background-color: rgb(5, 65, 65);
+       
+    }
+
+
+    
+.backimg{
+    display: grid;
+    grid-template-columns: 96px 96px 96px 121px 96px 10px 157px 96px ;
+    grid-template-rows: 80px 170px 80px ; 
+}
+
+
+#lgo2{
+    width: 768px;
+    height: 330px;
+    
+}
+
+
+.projects1{
+    display: grid;
+    grid-template-columns: 96px 96px 96px 121px 96px 10px 157px 96px ;
+    grid-template-rows: 100px 100px 100px;
+    
+}
+
+   
+
+.testimonial1{
+    display: grid;
+    grid-template-columns: 96px 96px 96px 121px 96px 10px 157px 96px ;
+    grid-template-rows: 50px 200px 30px; 
+    background-color: rgb(238, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.contact1{
+
+    display: grid;
+    grid-template-columns: 96px 96px 96px 121px 96px 10px 157px 96px ;
+    grid-template-rows: 50px 200px 50px; 
+    
+}
+
+
+
+.footer{
+    width: 1024px;
+    background-color: rgb(5, 65, 65);
+    color: white;
+    
+}
+
+#fery1{
+    padding-right: -80px;
+}
+#follo1{
+    padding-left: -70px;
+}
+
+
+.item11{
+      
+    grid-row-start: 1;  
+    grid-row-end: 2;  
+    grid-column-start: 3;
+    grid-column-end: 5;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.item12 i,
+.item13 i,
+.item14 i,
+.item18 i,
+.item19 i,
+.item20 i{
+
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+
+.comme2{
+    width: 200px;
+    height: 80px;
+    border-radius: 8px;
+    border: 2px solid #001c40;
+}
+
+
+}
+
+    
+
+
+
+
+/* Next Three*/
+@media (max-width: 768px) {
+
+    
+    .header1{
+        display: grid;
+        grid-template-columns: 96px 96px 96px 121px 96px 10px 157px 96px ;
+        
+        background-color: rgb(5, 65, 65);
+       
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .container2{
+        background-color: blue;
+    }
+}
+
+@media (max-width: 475px) {
+    .container2{
+        background-color: orange;
+    }
+}
